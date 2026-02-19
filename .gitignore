@@ -1,0 +1,8 @@
+# Compiled binaries - inhe push mat karo!
+*.exe
+*.out
+*.o
+*.obj
+
+# VS Code
+.vscode/
