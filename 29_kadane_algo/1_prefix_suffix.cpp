@@ -50,11 +50,14 @@ vector<int> suffixSum(vector<int> &arr){
 
 int main(){
   vector<int> arr={10,20,30,40,50};
-  //  vector<int> prefix_sum=prefixSum(arr);
+  cout<<"prefix sum :";
+   vector<int> prefix_sum=prefixSum(arr);
 
-  //  for(int i=0;i<prefix_sum.size();i++){
-  //     cout<<prefix_sum[i]<<" ";
-  //  }
+   for(int i=0;i<prefix_sum.size();i++){
+      cout<<prefix_sum[i]<<" ";
+   }
+   cout<<""<<endl;
+    cout<<"Suffix sum :";
    vector<int> suffix_sum=suffixSum(arr);
 
    for(int i=0;i<suffix_sum.size();i++){
