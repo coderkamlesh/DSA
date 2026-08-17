@@ -1,19 +1,36 @@
 #include<iostream>
+#include<vector>
 using namespace std;
+
+int maxSum(vector<int> &arr){
+    int n=arr.size();
+
+    int max_sum=arr[0];
+    int current_sum=arr[0];
+
+    for(int i=1;i<n;i++){
+        
+
+    }
+    return 0;
+};
 
 int main(){
 
-    int arr[4][3]={{1,2,3},{1,2,3},{1,2,3},{1,2,3}};
-    for(int i=0;i<4;i++){
-        for(int j=0;j<3;j++){
-            cout<<arr[i][j]<< " ";
-        }
-        cout<<endl;
-    }
-    char b[] = {83, 65, 78, 84, 65, 78, 85,' ', 83, 65, 85};
-    cout<<b;
-    // for(int i=0;i<11;i++){
-    //    cout<<b[i];
+    //basic array create;
+    // int arr[4][3]={{1,2,3},{1,2,3},{1,2,3},{1,2,3}};
+    // //traversal
+    // for(int i=0;i<4;i++){
+    //     for(int j=0;j<3;j++){
+    //         cout<<arr[i][j]<< " ";
+    //     }
+    //     cout<<endl;
     // }
+
+    vector<vector<int>> matrix={{1,2,3},{1,2,3,4},{1,2,3},{1,2,3}};
+    cout<<matrix[1].size();
+
+    //swap
+
 		
 }
